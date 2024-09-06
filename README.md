@@ -11,7 +11,6 @@ The script automatically adds a text layer to each "Media [number]" comp, displa
 - Adds a text layer to each "Media [number]" composition.
 - Automatically sets the text to the name of the composition (e.g., "Media 5").
 - Applies the CC Repetile effect, repeating the comp name across the entire composition.
-- Optionally includes padding to keep the text away from the edges of the comp.
 
 ## How to Use
 
