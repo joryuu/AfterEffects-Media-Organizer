@@ -1,10 +1,14 @@
 function addTextLayerToComps() {
     var folder = app.project.selection[0];
     if (folder && folder.typeName === "Folder") {
-        app.beginUndoGroup("Add Text Layer to Media Comps");
+        app.beginUndoGroup("Add Comp Name Text Layer to All Comps in Folder");
 
         for (var i = 1; i <= folder.numItems; i++) {
             var item = folder.item(i);
+
+	// in the next line 
+	// change Media to shared comp name 
+	// (eg Video, Comp, etc)
 
             if (item instanceof CompItem && item.name.match(/^Media\s\d+$/i)) {
                 addTextLayerToComp(item);
@@ -12,9 +16,9 @@ function addTextLayerToComps() {
         }
 
         app.endUndoGroup();
-        alert("Text layers and Repetile effects added to all 'Media [number]' comps.");
+        alert("Text layers and Repetile effects added to all comps in folder.");
     } else {
-        alert("Please select a folder containing the 'Media [number]' compositions.");
+        alert("Please select a folder containing the compositions.");
     }
 }
 
