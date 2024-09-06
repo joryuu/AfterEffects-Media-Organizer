@@ -2,7 +2,7 @@
 
 ## Overview
 
-This script was designed to help organize media compositions in After Effects, particularly for templates like the Photography Portfolio by millionframes on Envato. If your template includes multiple media placeholders (e.g., "Media [number]" compositions), it can be challenging to track which image or video appears where in the final output.
+This script was designed to help visually organize media compositions in After Effects, particularly for templates like the Photography Portfolio by millionframes on Envato. If your template includes multiple media placeholders (e.g., "Media [number]" compositions), it can be challenging to track which image or video appears where in the final output.
 
 The script automatically adds a text layer to each "Media [number]" composition, displaying the composition’s name (e.g., "Media 1", "Media 2"). It also applies two instances of the **CC Repetile** effect to ensure that the comp name is visible across the entire composition, aiding in easy identification of each media slot.
 
@@ -25,8 +25,9 @@ The script automatically adds a text layer to each "Media [number]" composition,
 ## How to Use
 
 1. Select the folder in your After Effects project that contains all the "Media [number]" compositions.
-2. Run the script in After Effects by navigating to `File > Scripts > Run Script File...`.
-3. The script will process all compositions in the selected folder, adding a text layer and applying the **CC Repetile** effects.
+    - You can swap Media with other naming conventions in the script itself - check the comments therein to see how.
+3. Run the script in After Effects by navigating to `File > Scripts > Run Script File...`.
+4. The script will process all compositions in the selected folder, adding a text layer and applying the **CC Repetile** effects.
 
 ## Requirements
 
