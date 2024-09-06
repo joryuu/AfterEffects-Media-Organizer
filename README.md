@@ -1,5 +1,3 @@
-# After Effects Media Organizer Script
-
 ## Overview
 
 This script was designed to help visually organize media compositions in After Effects, particularly for templates like the Photography Portfolio by millionframes on Envato. If your template includes multiple media placeholders (e.g., "Media [number]" compositions), it can be challenging to track which image or video appears where in the final output.
