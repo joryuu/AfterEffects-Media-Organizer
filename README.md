@@ -32,7 +32,7 @@ The script automatically adds a text layer to each selected composition, display
 To make the script more accessible in AfterEffects' Script UI Panel:
 
 1. Save the .jsx file to your computer.
-2. In AfterEffects, navigate to `File > Scripts > Install Script UI Panel`
+2. In AfterEffects, navigate to `File > Scripts > Install Script File`
 3. Double-click the script.
 4. Restart AfterEffects.
 5. The script will now appear under the `Window` menu in AfterEffects, where you can run it directly from the Script UI Panel.
