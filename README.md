@@ -16,9 +16,9 @@ The script automatically adds a text layer to each selected composition, display
   - Line Spacing: Auto
 - Applies two **CC Repetile** effects:
   - **First Instance**:
-    - The first **CC Repetile** effect repeats the comp name with specific expand values (right: 200px, down: 100px) to provide padding and visibility around the text.
+    - The first **CC Repetile** effect applies expand values (right: 200px, down: 100px) to provide padding and visibility around the text.
   - **Second Instance**:
-    - The second **CC Repetile** effect, applied on top of the first, tiles the text using "Brick" tiling to ensure it remains visible regardless of cropping or placement within the main composition.
+    - The second **CC Repetile** effect tiles the text using "Brick" tiling to ensure it remains visible regardless of cropping or placement within the main composition.
 - Names the text layer after the comp for easy identification.
 
 ## How to Use
